@@ -2,6 +2,7 @@ import styles from './Footer.module.css';
 import '../Fontawsseteup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram,faTwitter, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -13,7 +14,13 @@ export default function Footer() {
             <div className={styles.row}>
                 
                 <div className={styles.column}>
-                <img className={styles.logo} src="/images/logo-mj.png" alt="Logo" />
+                <Image 
+              className={styles.logo} 
+              src="/images/logo-mj.png" 
+              alt="Logo" 
+              width={290} // Specify the width
+              height={100} // Specify the height
+            />
                     <div className={styles.cusrow}>
                     <FontAwesomeIcon className={styles.icon} icon={faInstagram} />
                     <h1>millionjugnus</h1>

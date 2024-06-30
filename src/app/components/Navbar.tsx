@@ -1,6 +1,6 @@
 import Link from 'next/link'; // Use the correct import for Link
 import styles from './Navbar.module.css';
-
+import Image from 'next/image';
 const Navbar: React.FC = () => {
 
 
@@ -9,7 +9,13 @@ const Navbar: React.FC = () => {
     <nav className={styles.navbar}>
       <div className={styles.navContent}>
         <Link href="/" passHref>
-          <img className={styles.logo} src="/images/logo-mj.png" alt="Logo" />
+        <Image
+            className={styles.logo}
+            src="/images/logo-mj.png"
+            alt="Logo"
+            width={250}
+            height={101}
+          />
         </Link>
         <div className={styles.navLinks}>
           <Link href="#homepage">Home</Link>
