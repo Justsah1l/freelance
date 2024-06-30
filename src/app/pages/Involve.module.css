@@ -1,0 +1,79 @@
+.maincon{
+    background-color: white;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    min-height: 90vh;
+
+}
+
+.container {
+    background-color: #FFBE40; /* Background color for the container */
+    min-height: 80vh; /* Ensure the container covers the full viewport height */
+    padding: 2rem; /* Add some padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+    justify-content: space-evenly; /* Center items horizontally */
+}
+.titletext {
+    color: #ED1C24;
+    font-weight: 800;
+    font-size: 50px;
+}
+.image{
+    height: 200px;
+    width:180;
+}
+
+ 
+  .buttonstyle {
+    
+    
+    margin-top: 20px;
+    color: black;
+    border-radius: 40px;
+    background-color: white;
+    border: 3px solid white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 400px;
+    line-height: 70px;
+    transition: background-color 0.5s ease, border-color 0.5s ease;
+    display: inline-flex; /* Ensure the button fits the text size */
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  text-align: center; 
+  overflow: hidden;
+  
+  }
+  
+  .buttonstyle:hover {
+    color: #FF642D;
+    background-color: black;
+    border-color: black;
+    
+    transition: 0.5s ease;
+    font-size: 24px;
+  }
+
+
+  
+
+  .row {
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+  align-items: center; /* Center items vertically */
+  justify-content: flex-end;
+
+
+  }
+
+  .column {
+    
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  align-items: center; /* Center items vertically */
+  justify-content: flex-end;
+  }

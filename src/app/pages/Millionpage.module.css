@@ -1,0 +1,68 @@
+.container {
+    background-image: url('/images/million.jpeg'); /* Path to your background image */
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    min-height: 100vh; /* Ensure the container covers the full viewport height */
+    padding: 2rem; /* Add some padding */
+    background-color: white; /* Optional: Set text color for contrast */
+    display: flex;
+    flex-direction: column;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; 
+  }
+
+  .millions {
+    color:#ED1C24;
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 290px;
+    margin-top: -40px;
+    
+  }
+.other{
+    color:black;
+    max-width: 600px;
+    size: 20px;
+    margin-bottom: 50px;
+}
+  .buttonstyle {
+    
+    
+    margin-top: 20px;
+    color: black;
+    border-radius: 40px;
+    border: 3px solid black;
+    font-weight: 700;
+    font-size: 20px;
+    width: 400px;
+    line-height: 70px;
+    transition: background-color 0.5s ease, border-color 0.5s ease;
+    display: inline-flex; /* Ensure the button fits the text size */
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  text-align: center; 
+  overflow: hidden;
+  
+  }
+  
+  .buttonstyle:hover {
+    color: black;
+    background-color: #FF642D;
+    border-color: #FF642D;
+    
+    transition: 0.5s ease;
+    font-size: 24px;
+  }
+
+
+  
+
+  .row {
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+  align-items: center; /* Center items vertically */
+  justify-content: flex-end;
+
+  }

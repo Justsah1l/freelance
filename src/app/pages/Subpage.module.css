@@ -1,0 +1,61 @@
+.container {
+    background-image: url('/images/Subpageback.png'); /* Path to your background image */
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    min-height: 100vh; /* Ensure the container covers the full viewport height */
+    padding: 2rem; /* Add some padding */
+    background-color: white; /* Optional: Set text color for contrast */
+    display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: flex-start; 
+  }
+
+  .maintext {
+    
+    color: #BE0000;
+    font-size: 33px;
+    max-width: 350px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 200px;
+    max-height: 300px;
+  }
+
+
+  .subcon {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .buttonstyle {
+    position: absolute ;
+    
+    margin-top: 20px;
+    color: black;
+    border-radius: 40px;
+    border: 3px solid black;
+    font-weight: 700;
+    font-size: 24px;
+    width: 440px;
+    line-height: 70px;
+    transition: background-color 0.5s ease, border-color 0.5s ease;
+    display: inline-flex; /* Ensure the button fits the text size */
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  text-align: center; 
+  overflow: hidden;
+  
+  }
+  
+  .buttonstyle:hover {
+    position: absolute;
+    background-color: #FF642D;
+    border-color: #FF642D;
+    transition: 0.5s ease;
+    font-size: 29px;
+  }

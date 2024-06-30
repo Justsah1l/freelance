@@ -1,0 +1,131 @@
+
+
+.container {
+    background-color: #680707; /* Background color for the container */
+    min-height: 80vh; /* Ensure the container covers the full viewport height */
+    padding: 2rem; /* Add some padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start; /* Center items horizontally */
+}
+.titletext {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center; 
+    
+    
+}
+
+.title {
+    color: white;
+    font-weight: 400;
+}
+.option {
+    color: white;
+    font-weight: 800;
+}
+
+.icon{
+    height: 40px;
+}
+.spacer{
+    margin-top: 40px;
+}
+.image{
+    height: 200px;
+    width:180;
+}
+.footertext{
+    color: white;
+    font-size: 22px;
+    width: 100%;
+} 
+.line {
+    margin-left: 20px;
+    margin-right: 20px;
+   width: 1400px;
+    border: none; /* Remove the default border */
+    height: 2px; /* Height of the line */
+    background-color: #D31F1F; /* Color of the line */
+    margin: 10px 0; /* Add some space around the line */
+}
+
+
+ 
+  .buttonstyle {
+    
+    
+    margin-top: 20px;
+    color: black;
+    border-radius: 40px;
+    background-color: white;
+    border: 3px solid white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 400px;
+    line-height: 70px;
+    transition: background-color 0.5s ease, border-color 0.5s ease;
+    display: inline-flex; /* Ensure the button fits the text size */
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  text-align: center; 
+  overflow: hidden;
+  
+  }
+  
+  .buttonstyle:hover {
+    color: #FF642D;
+    background-color: black;
+    border-color: black;
+    
+    transition: 0.5s ease;
+    font-size: 24px;
+  }
+
+
+  .logo {
+    height: 140px;
+  }
+
+  .row {
+    gap: 9.6rem;
+    display: flex;
+    flex-direction: row;
+  
+  justify-content: flex-start ;
+
+
+  }
+
+
+  .makecen{
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .cusrow {
+    margin-left: 20px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: 'flex-start';
+
+
+  }
+.cuscol {
+    display: flex;
+    flex-direction: column;
+  align-items: flex-start; /* Center items vertically */
+  justify-content: center;
+}
+  .column {
+    
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+  align-items: flex-start; /* Center items vertically */
+  justify-content: flex-start;
+  }

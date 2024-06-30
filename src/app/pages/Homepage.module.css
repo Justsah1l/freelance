@@ -1,0 +1,21 @@
+.container {
+    background-image: url('/images/backhome.png'); /* Path to your background image */
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    min-height: 100vh; /* Ensure the container covers the full viewport height */
+    padding: 2rem; /* Add some padding */
+    color: white; /* Optional: Set text color for contrast */
+    display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: flex-start; 
+  }
+
+.maintext {
+    color: #FFDD00;
+    font-size: 50px;
+    font-weight: 750;
+    max-width: 500px;
+    margin-left:80px ;
+    
+}
